@@ -6,11 +6,19 @@ using namespace std;
 int main()
 {
     system("color f1");
-           string w,w1,w2;
+           string w,w1,w2,wx;
            int i,sym=0,fon=0;
            
            cout<<" Dwse le3h : ";
-           cin>>w;
+           cin>>wx;
+			
+		   for (i=0; i<wx.size(); ++i)
+		   {
+		   		if ((wx[i]>='a' && wx[i]<='z') || (wx[i]>='A' && wx[i]<='Z'))
+		   		{
+		   			w+=wx[i];
+		   		}
+		   }	
 
 		   for (i=0; i<w.size(); ++i)
 		   {
