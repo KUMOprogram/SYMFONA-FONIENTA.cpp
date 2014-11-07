@@ -10,7 +10,7 @@ int main()
            int i,sym=0,fon=0;
            
            cout<<" Dwse le3h : ";
-           cin>>wx;
+           getline(cin,wx);
 			
 		   for (i=0; i<wx.size(); ++i)
 		   {
